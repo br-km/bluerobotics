@@ -263,25 +263,25 @@ ul.social li a{
     transition:all 350ms;
 }
 .facebook a {
-    background-position: 0 0;
+    background-position: -1px -1px;
 }
 .instagram a {
-    background-position: 0 -64px;
+    background-position: -1px -69px;
 }
 .linkedin a {
-    background-position: 0 -128px;
+    background-position: -1px -137px;
 }
 ul.social {
     float: right;
 }
 .facebook a:hover{
-    background-position: 0 -32px;
+    background-position: -1px -35px;
 }
 .instagram a:hover{
-    background-position: 0 -96px
+    background-position: -1px -103px
 }
 .linkedin a:hover{
-    background-position: 0 -160px;
+    background-position: -1px -171px;
 }
 
 
