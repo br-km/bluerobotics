@@ -36,7 +36,7 @@ header h1 a {
     background: URL('../images/logo-br.png') top left no-repeat;
 }
 header nav {
-    float:right;
+    float: right;
     width: 65%;
 }
 header nav ul, header nav ul.visible {
@@ -82,15 +82,16 @@ header nav li a:hover{
 .slogan{
     text-align: center;
     padding-top: 180px;
-    font-family: 'Dela Gothic One', cursive;
+    font-family: 'SF Automaton', sans-serif;
     font-size: 3.5em;
     line-height: 1.79em;
 }
+
 .slogan h1{
-    color: #005F87;
+    color: #fff;
     display: inline;
     padding: 5px 15px;
-    background: rgba(218,220,224,0.8);
+    background: rgba(0,95,135,0.5);
 }
 .slogan h2{
     color: #fff;
@@ -314,7 +315,7 @@ ul.social {
         display: block;
         position: absolute;
         top: 5px;
-        right: 5px;
+        right: 5%;
     }
     header nav ul {
         display: none;
