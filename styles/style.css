@@ -76,7 +76,9 @@ header nav li a:hover{
 .slogan-bg{
     height: 442px;
     width: 100%;
-    background: URL('../images/robot-chwytak.jpg') top center no-repeat;
+    min-height: 400px;
+    background: transparent;
+    /* background: URL('../images/robot-chwytak.jpg') top center no-repeat; */
     background-size: cover;
     overflow: hiden;
     border-top: 0px solid #161616;
@@ -103,6 +105,7 @@ header nav li a:hover{
 }
 /*---------OFERTA----------*/
 
+
 section.container h1{
     color: #161616;
     font-size: 3em;
@@ -119,7 +122,7 @@ span.readmore a{
     font-size: 1.4em;
     color: #7d7d7d;
     text-decoration: none;
-    border-radius: 8px;
+    /* border-radius: 8px; */
 }
 span.readmore a:hover{
     background-color: #005F87;
@@ -132,8 +135,8 @@ span.readmore a:hover{
     /* border: 1px solid #005F87; */
 }
 .box img {
-    border-radius: 8px;
-     border: 1px solid #005F87; 
+    /* border-radius: 8px; */
+     /* border: 1px solid #005F87;  */
 }
 
 .box h2{
@@ -176,7 +179,7 @@ span.readmore a:hover{
 .right img {
     max-width: 30%;
     float: left;
-    border-radius: 8px;
+    /* border-radius: 8px; */
     /* border: 4px solid #005F87; */
     margin: 0 2% 0 0;
 }
@@ -349,7 +352,7 @@ ul.social {
         left: 0;
         bottom: 0;
         padding: 5px;
-        border-radius: 8px;
+        /* border-radius: 8px; */
         background: rgba(0,95,135,0.8)
     }
     .box h2 {
@@ -430,7 +433,7 @@ ul.social {
     }
     .desc {
         position:relative;
-        border-radius: 8px;
+        /* border-radius: 8px; */
         padding: 0%;
         background:rgba(0,95,135,1) }
     .box h2 {

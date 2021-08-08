@@ -31,9 +31,9 @@
         </header>
         <div class = "slogan-bg">
             <div class = "slogan">
-                <h1>Blue Robotics</h1>
+                <!-- <h1>Blue Robotics</h1>
                 <br>
-                <h2>Automation for industry</h2>
+                <h2>Automation for industry</h2> -->
             </div>
         </div>
         <!--------------------------- Oferta ---------------------------------->
@@ -150,8 +150,15 @@
                 </div>
             </div>
         </section>
-        <script src = "scripts/jquery-3.6.0.min.js"></script>
+        <script src ="scripts/jquery-3.6.0.min.js"></script>
         <script src ="scripts/scripts.js"></script>
+        <script src="scripts/parallax.js-1.3.1/parallax.js"></script> 
+        <script>
+                    $('.slogan-bg').parallax({
+        	imageSrc: 'images/robot-chwytak.jpg',
+        	speed: 0.2
+        });
+        </script>
     </body>
     <footer>
     <!--------------------------- Stopka --------------------------->
