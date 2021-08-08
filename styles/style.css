@@ -119,7 +119,7 @@ span.readmore a{
     font-size: 1.4em;
     color: #7d7d7d;
     text-decoration: none;
-    border-radius: 8px;
+    /* border-radius: 8px; */
 }
 span.readmore a:hover{
     background-color: #005F87;
@@ -132,8 +132,8 @@ span.readmore a:hover{
     /* border: 1px solid #005F87; */
 }
 .box img {
-    border-radius: 8px;
-     border: 1px solid #005F87; 
+    /* border-radius: 8px; */
+     /* border: 1px solid #005F87;  */
 }
 
 .box h2{
@@ -176,7 +176,7 @@ span.readmore a:hover{
 .right img {
     max-width: 30%;
     float: left;
-    border-radius: 8px;
+    /* border-radius: 8px; */
     /* border: 4px solid #005F87; */
     margin: 0 2% 0 0;
 }
@@ -324,7 +324,7 @@ ul.social {
         display: block;
         position: absolute;
         top: 30px;
-        right: 36px;
+        right: 2%;
     }
     header nav ul {
         display: none;
@@ -349,7 +349,7 @@ ul.social {
         left: 0;
         bottom: 0;
         padding: 5px;
-        border-radius: 8px;
+        /* border-radius: 8px; */
         background: rgba(0,95,135,0.8)
     }
     .box h2 {
@@ -408,14 +408,18 @@ ul.social {
     .container {
         width: 100%;
     }
+    header h1 a {
+        margin-left: 16px;
+    }
     header nav ul li {
         display: block;
         width: 100%;
     }
     header nav ul li a{
-        height: 46px;
-        line-height: 46px;
-        border-bottom: 1px solid #005F87;
+        height: 54px;
+        margin: 4px 0;
+        /* line-height: 46px; */
+        /* border-bottom: 1px solid #005F87; */
     }
     header nav ul.visible{
         display: block;
@@ -430,7 +434,7 @@ ul.social {
     }
     .desc {
         position:relative;
-        border-radius: 8px;
+        /* border-radius: 8px; */
         padding: 0%;
         background:rgba(0,95,135,1) }
     .box h2 {
