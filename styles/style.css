@@ -125,6 +125,16 @@ span.readmore a:hover{
     background-color: #005F87;
     color: #fff;
 }
+
+section.container {
+    display: table;
+    width: 100%;
+}
+
+section.container.box {
+    display: table-cell;
+}
+
 .box{
     width: 29.333%;
     float: left;
